@@ -1,0 +1,37 @@
+########################################################
+# 	Mantis Bugtracker Add-On
+# 	Clone project Version 2.0.2
+#	2022 plugin by Cas Nuy www.NUY.info
+#	Only available for Mantis version 2.x
+########################################################
+
+This plugin allows cloning of a project including all additional data such as Hierarchy, Sub Projects, Categories, Custom filelds and users.
+
+********************************************************************************************
+* Installation                                                                             *
+********************************************************************************************
+ 
+	
+************************************
+* Adding plugin to mantis          *
+************************************ 
+- Copy Cloneproject directory to the plugins directory of your mantis installation
+After copying to your webserver :
+- Start mantis ad administrator
+- Select manage
+- Select manage Plugins
+- Select Install behind Cloneproject
+- Click on Cloneprojecty to configure what to be copied as default (can be overridden )
+- Copy manage_proj_clone.php to the root of your mantis installation
+
+********************************************************************************************
+License                                                                                    *
+********************************************************************************************
+This plugin is distributed under the same conditions as Mantis itself.
+
+********************************************************************************************
+Greetings                                                                                  *
+********************************************************************************************
+Cas Nuy 
+cas@nuy.info
+http://www.nuy.info

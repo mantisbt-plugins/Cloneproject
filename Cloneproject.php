@@ -4,12 +4,12 @@ class CloneprojectPlugin extends MantisPlugin {
     function register() {
         $this->name        = 'Clone your projects';
         $this->description = 'Allows cloning of projects including all dependencies' ;
-        $this->version     = '2.02';
+        $this->version     = '2.03';
         $this->requires    = array('MantisCore'       => '2.0.0',);
         $this->author      = 'Cas Nuy';
         $this->contact     = 'Cas.Nuy@stahl.com';
-        $this->url         = 'https://github.com/mantisbt-plugins/Cloneproject2';
-	$this->page	   = 'config';
+        $this->url         = 'http://www.nuy.info/mantis2';
+		$this->page			= 'config';
     }
 	
 	function config() {

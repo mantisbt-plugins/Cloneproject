@@ -13,9 +13,9 @@ $f_users		= gpc_get_bool( 'clone_users', ON );
 // update results
 plugin_config_set( 'clone_hierarchy', $f_hierarchy );
 plugin_config_set( 'clone_subprojects' , $f_sub );
-plugin_config_set( 'clone_categories', $f_catactive );
+plugin_config_set( 'clone_categories', $f_cat );
 plugin_config_set( 'clone_versions', $f_versions );
 plugin_config_set( 'clone_customfields', $f_custom );
 plugin_config_set( 'clone_users', $f_users );
 // redirect
-print_successful_redirect( plugin_page( 'config',TRUE ) );
+print_header_redirect( plugin_page( 'config',TRUE ) );

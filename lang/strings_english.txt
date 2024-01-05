@@ -1,0 +1,12 @@
+<?php
+$s_plugin_CloneProject_title       				= "Clone Project";
+$s_plugin_CloneProject_description 				= "Allows cloning a project including all subdefinitions";
+$s_plugin_CloneProject_Include_Hierarchy	 	= "Copy Hierarchy";
+$s_plugin_CloneProject_Include_SubProjects		= "Copy Sub-Projects";
+$s_plugin_CloneProject_Include_Categories 		= "Copy Categories" ;
+$s_plugin_CloneProject_Include_Versions 		= "Copy Versions" ;
+$s_plugin_CloneProject_Include_Customfields 	= "Copy Custom Fields" ;
+$s_plugin_CloneProject_Include_Users 			= "Copy Users" ;
+$s_plugin_Cloneproject_enabled					= "Yes";
+
+$s_plugin_Cloneproject_update					= "Update config";

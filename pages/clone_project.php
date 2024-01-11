@@ -5,6 +5,7 @@ $cat		= plugin_config_get( 'clone_categories'  );
 $versions	= plugin_config_get( 'clone_versions'  );
 $custom 	= plugin_config_get( 'clone_customfields'  );
 $users 		= plugin_config_get( 'clone_users'  );
+$f_project_id	= helper_get_current_project();;
 ?>
 <div class="col-md-12 col-xs-12">
 	<div class="space-10"></div>
